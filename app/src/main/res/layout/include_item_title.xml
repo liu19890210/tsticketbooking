@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hotel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_2F98E9"
+>
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/dp_90"
+       >
+       <RelativeLayout
+           android:id="@+id/rl_back"
+           android:layout_width="@dimen/dp_100"
+           android:layout_height="match_parent"
+           android:layout_alignParentLeft="true"
+           android:layout_marginLeft="@dimen/dp_30"
+           >
+           <ImageView
+               android:id="@+id/iv_back"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               />
+       </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_big"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+       />
+       <RelativeLayout
+           android:id="@+id/rl_right"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_alignParentRight="true"
+           android:layout_marginLeft="@dimen/dp_25"
+           android:visibility="gone"
+           >
+           <ImageView
+               android:id="@+id/iv_right"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:layout_marginRight="@dimen/dp_25"
+               android:background="@mipmap/san_yuandian"/>
+       </RelativeLayout>
+
+   </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_rg_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_big"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_25"
+        />
+
+</RelativeLayout>

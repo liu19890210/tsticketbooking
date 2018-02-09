@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">唐山旅游验证端</string>
+    //讯飞唯一id
+    <string name="app_id">59368e8f</string>
+
+
+    //登录
+    <string name="str_login">登录</string>
+    <string name="str_hotelID">请输入ID或手机号</string>
+    <string name="str_passsword">请输入密码</string>
+    <string name="str_forget">忘记密码?</string>
+    <!--<string name="str_hotel_join">酒店加盟</string>-->
+    //首页
+
+    <!--<string name="str_ebooking">E-BOOKING</string>-->
+    <string name="str_guomin_Tickets">唐山旅游验证端</string>
+    <string name="str_input_number">输入凭证号</string>
+    <string name="str_scan_tickets">扫码验证</string>
+    <string name="str_history_tickets">历史验证</string>
+    <string name="str_tongji_form">统计报表</string>
+    <string name="str_visitor_board">游客看板</string>
+    <string name="str_hotel_info">景点信息</string>
+    <string name="str">©2017国民出行</string>
+    //历史验证
+    <string name="str_hisNum">验证量(张)</string>
+    <string name="str_ok">确定</string>
+    <string name="str_cancel">取消</string>
+
+    //我的
+    <string name="str_notice">公告</string>
+    <string name="str_help">帮助</string>
+    <string name="str_feedback">意见反馈</string>
+    <string name="str_setting">设置</string>
+    <string name="str_outLogin">退出登录</string>
+    //意见反馈
+    <string name="str_feed">请您填写的建议和意见，帮助我们做得更好</string>
+    <string name="str_mobile">请输入您的手机号码</string>
+    //设置
+    <string name="str_change_mobile">更改绑定手机号</string>
+    <string name="str_change_password">修改密码</string>
+    //酒店
+    <string name="str_hotel_star">景点级别</string>
+    <!--<string name="str_hotel_chain">连锁品牌</string>-->
+    <string name="str_hotel_address">景点地址</string>
+    <string name="str_linkman">联系人</string>
+    <string name="str_room_call">联系电话</string>
+    
+    //凭证号
+    <string name="str_yangzheng">验 证</string>
+    //扫描
+    <string name="str_scan_title">扫描验证兑换券</string>
+    <string name="str_scan">将二维码放入框内,即可自动扫描</string>
+    //房劵
+    <string name="str_order">订单号</string>
+    <string name="str_voucher">凭证号</string>
+    <string name="str_product">产品</string>
+    <string name="str_proof">验证时间</string>
+    //重置密码
+    <string name="str_input_bind_mobile">输入绑定手机号</string>
+    <string name="str_get_code">获取验证码</string>
+    //更改绑定手机号
+    <string name="str_input_old_mobile">输入原手机号</string>
+    <string name="str_input_new_mobile">输入新手机号</string>
+    //忘记密码
+    <string name="str_bind_mobile">输入绑定手机号</string>
+    <string name="str_code_">验证码</string>
+    <string name="str_new_password">新密码</string>
+    <string name="str_one">再次输入</string>
+    <string name="str_string">密码由数字、字母和常用字符组合的6-20位字符</string>
+
+    //empty
+    <string name="str_empty">暂无验证订单</string>
+    //pull
+    <string name="str_loading">加载中…</string>
+    //n
+    <string name="str_n">/n</string>
+
+
+    <string name="placeHolder">placeHolder</string>
+    <string name="seekbar_add">+</string>
+    <string name="seekbar_minus">-</string>
+    <string name="create">生成</string>
+    <string name="scan_failed">扫描失败</string>
+    <string name="bottom_hint">建议与镜头保持10CM距离，尽量避免逆光和阴影</string>
+    <string name="top_hint">将条形码或二维码置于取景框内系统会自动扫描</string>
+    <string name="cancel">取消</string>
+    <!--<string name="msg_camera_framework_bug">抱歉，Android相机出现问题。您可能需要重启设备。</string>-->
+    <string name="button_ok">确定</string>
+   
+
+</resources>

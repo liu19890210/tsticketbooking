@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<declare-styleable name="DiscView">-->
+        <!--&lt;!&ndash;圆圈线的宽度&ndash;&gt;-->
+        <!--<attr name="dvStrokenWidth" format="dimension" />-->
+        <!--&lt;!&ndash;圆圈颜色&ndash;&gt;-->
+        <!--<attr name="dvStrokenColor" format="color" />-->
+        <!--&lt;!&ndash;外装饰圆是否显示&ndash;&gt;-->
+        <!--<attr name="dvOuterCircleShow" format="boolean" />-->
+        <!--&lt;!&ndash;外装饰圆距离圆环边距&ndash;&gt;-->
+        <!--<attr name="dvOuterCirclePad" format="dimension" />-->
+
+        <!--&lt;!&ndash;内部装饰圆是否显示&ndash;&gt;-->
+        <!--<attr name="dvInnerCircleShow" format="boolean" />-->
+        <!--&lt;!&ndash;内部装饰圆距离圆环边距&ndash;&gt;-->
+        <!--<attr name="dvInnerCirclePad" format="dimension" />-->
+
+        <!--&lt;!&ndash;底部圆形是否显示&ndash;&gt;-->
+        <!--<attr name="dvBottomCircleIsShow" format="boolean" />-->
+
+        <!--&lt;!&ndash;圆形指示图片&ndash;&gt;-->
+        <!--<attr name="dvIndicatorDraw" format="reference"/>-->
+
+        <!--&lt;!&ndash;圆盘开始旋转角度值&ndash;&gt;-->
+        <!--<attr name="dvStartRotateAngle" format="integer" />-->
+        <!--&lt;!&ndash;圆盘可旋转角度范围&ndash;&gt;-->
+        <!--<attr name="dvAngleRotateSpan" format="integer" />-->
+
+        <!--&lt;!&ndash;圆盘模式&ndash;&gt;-->
+        <!--<attr name="dvCircleMode">-->
+            <!--<enum name="normal" value="1" />-->
+            <!--<enum name="round" value="2" />-->
+            <!--<enum name="dot" value="3" />-->
+        <!--</attr>-->
+    <!--</declare-styleable>-->
+    <declare-styleable name="XNumberKeyboardView">
+
+        <!-- 删除按键的图标 -->
+        <attr name="xnkv_deleteDrawable" format="reference" />
+
+        <!-- 删除按键图标的宽度 -->
+        <attr name="xnkv_deleteWidth" format="dimension|reference" />
+
+        <!-- 删除按键图标的高度 -->
+        <attr name="xnkv_deleteHeight" format="dimension|reference" />
+
+        <!-- 删除按键图标的颜色 -->
+        <attr name="xnkv_deleteBackgroundColor" format="color|reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RingPercent">
+        <attr name="radius" format="dimension" />
+        <attr name="isRing" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ContentWithSpaceEditText">
+        <attr name="type" format="enum">
+            <enum name="phone" value="0" />
+            <enum name="card" value="1" />
+            <enum name="IDCard" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="RoundProgressBar">
+
+    <attr name="roundColor" format="color"/>
+
+    <attr name="roundProgressColor" format="color"/>
+
+    <attr name="roundWidth" format="dimension"/>
+
+    <attr name="textColor" format="color"/>
+
+    <attr name="textSize" format="dimension"/>
+
+    <attr name="max" format="integer"/>
+
+    <attr name="textIsDisplayable" format="boolean"/>
+
+
+    <attr name="style">
+
+    <enum name="STROKE" value="0"/>
+
+    <enum name="FILL" value="1"/>
+
+</attr>
+
+</declare-styleable>
+</resources>

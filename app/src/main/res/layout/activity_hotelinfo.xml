@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hotel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_F2F2F2"
+    android:orientation="vertical"
+    >
+ <include layout="@layout/include_item_title"/>
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@mipmap/bg_hotelinfo">
+     <TextView
+         android:id="@+id/tv_hotelName"
+         android:layout_width="wrap_content"
+         android:layout_height="@dimen/dp_50"
+         android:layout_centerVertical="true"
+         android:layout_centerHorizontal="true"
+         android:textColor="@android:color/white"
+         android:textSize="@dimen/font_size_big"
+         android:ellipsize="end"
+         android:singleLine="true"
+         android:maxWidth="@dimen/maxWidth"
+         />
+ </RelativeLayout>
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/dp_16"/>
+
+ <RelativeLayout
+     android:id="@+id/rl_star"
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/dp_104"
+     android:background="@drawable/btn_click_style">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="@dimen/dp_34"
+      android:text="@string/str_hotel_star"
+      android:textColor="@color/color_989898_font" />
+
+  <TextView
+      android:id="@+id/tv_star"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:paddingLeft="@dimen/dp_54"
+      android:layout_marginLeft="@dimen/dp_160"
+      android:textColor="@color/color_666666_font" />
+ </RelativeLayout>
+ <!--<View-->
+     <!--android:layout_width="wrap_content"-->
+     <!--android:layout_height="@dimen/dp_1"/>-->
+ <!--<RelativeLayout-->
+     <!--android:id="@+id/rl_chain"-->
+     <!--android:layout_width="match_parent"-->
+     <!--android:layout_height="@dimen/dp_104"-->
+     <!--android:background="@drawable/btn_click_style">-->
+
+  <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+      <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:layout_centerVertical="true"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:layout_marginLeft="@dimen/dp_34"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:text="@string/str_hotel_chain"&ndash;&gt;-->
+      <!--&lt;!&ndash;android:textColor="@color/color_989898_font" />&ndash;&gt;-->
+
+  <!--<TextView-->
+      <!--android:id="@+id/tv_chain"-->
+      <!--android:layout_width="wrap_content"-->
+      <!--android:layout_height="wrap_content"-->
+      <!--android:layout_centerVertical="true"-->
+      <!--android:paddingLeft="@dimen/dp_54"-->
+      <!--android:layout_marginLeft="@dimen/dp_160"-->
+      <!--android:textColor="@color/color_666666_font" />-->
+ <!--</RelativeLayout>-->
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/dp_16"/>
+ <RelativeLayout
+     android:id="@+id/rl_address"
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/dp_104"
+     android:background="@drawable/btn_click_style">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="@dimen/dp_34"
+      android:text="@string/str_hotel_address"
+      android:textColor="@color/color_989898_font" />
+
+  <TextView
+      android:id="@+id/tv_address"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:paddingLeft="@dimen/dp_54"
+      android:layout_marginLeft="@dimen/dp_160"
+      android:textColor="@color/color_666666_font" />
+ </RelativeLayout>
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/dp_16"/>
+ <RelativeLayout
+     android:id="@+id/rl_linkman"
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/dp_104"
+     android:background="@drawable/btn_click_style">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="@dimen/dp_34"
+      android:text="@string/str_linkman"
+      android:textColor="@color/color_989898_font" />
+
+  <TextView
+      android:id="@+id/tv_linkman"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:paddingLeft="@dimen/dp_54"
+      android:layout_marginLeft="@dimen/dp_160"
+      android:textColor="@color/color_666666_font" />
+ </RelativeLayout>
+ <View
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/dp_16"/>
+ <RelativeLayout
+     android:id="@+id/rl_room_call"
+     android:layout_width="match_parent"
+     android:layout_height="@dimen/dp_104"
+     android:background="@drawable/btn_click_style">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:layout_marginLeft="@dimen/dp_34"
+      android:text="@string/str_room_call"
+      android:textColor="@color/color_989898_font" />
+
+  <TextView
+      android:id="@+id/tv_room_call"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:paddingLeft="@dimen/dp_54"
+      android:layout_marginLeft="@dimen/dp_160"
+      android:textColor="@color/color_666666_font" />
+ </RelativeLayout>
+</LinearLayout>

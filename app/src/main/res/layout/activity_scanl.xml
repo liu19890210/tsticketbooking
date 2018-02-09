@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hotel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <RelativeLayout
+      android:id="@+id/rl_top"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    <include layout="@layout/include_item_title"/>
+  </RelativeLayout>
+
+  <FrameLayout
+      android:id="@+id/fl_zxing_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="visible"
+      android:layout_below="@+id/rl_top"
+      >
+
+  </FrameLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_gravity="bottom|center_horizontal">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/font_size_big"
+        android:text="将二维码放入框内即可自动验票"/>
+    <ImageView
+        android:id="@+id/iv_light"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_marginBottom="@dimen/dp_146"
+        android:layout_below="@+id/textView"
+        />
+  </RelativeLayout>
+</RelativeLayout>
